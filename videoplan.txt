@@ -1,0 +1,23 @@
+Scripting System:
+
+Character
+	name
+	default image
+	poses
+
+Dialogue Script:
+	name,content,pose
+
+Parse
+	make each line into a 			struct (name, content, 			pose)
+
+	add each struct to array 		of structs
+
+Dialogue Box System:
+	Make UI Textbox
+	Have it show text from dialogue/parse class
+	Make back and forward buttons
+		(back should do nothing backwards on first)
+	Transition to next scene if last dialogue is pressed
+
+Choice Systems:
